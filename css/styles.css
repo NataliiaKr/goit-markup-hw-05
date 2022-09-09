@@ -612,8 +612,9 @@ margin: 0 auto 50px;
       transform: translate(-50%, -50%);
    
     font-weight: 400;
-    font-size: 18;
+    font-size: 18px;
     line-height: calc(28/18);
+    letter-spacing: 0.03em;
     color: var(--second-text-color);
     opacity: 0;
   }
