@@ -670,9 +670,10 @@ margin: 0 auto 50px;
     background-color: rgba(0, 0, 0, 0.2);
   }
 
-  .backdrop .is-hidden {
+  .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
   }
 
   .modal {
@@ -683,4 +684,24 @@ margin: 0 auto 50px;
     width: 528px;
     height: 581px;
     background-color: var(--background-color);
+  }
+
+  .modal-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    padding: 0;
+    border: 1px solid var(--accent-text-color);
+    
+  }
+
+  .close-icon {
+    fill: var(--logo-header-color)
   }
